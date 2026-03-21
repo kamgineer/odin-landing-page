@@ -27,7 +27,7 @@ body {
     gap: 20px;
 }
 
-.header-links a {
+.header-links a, .footer, .hero-second, .right, .buttons {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -46,8 +46,43 @@ a {
     background-color: #1F2937;
     padding-top: 25px;
     padding-bottom: 25px;
-    font-size: 18px;
-    color: #E5E7EB;
     display: flex;
     justify-content: center;
+}
+
+.signup {
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: #1F2937;
+    /* TODO
+    padding: 50px 250px;
+    */
+    padding: 50px 40px;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.left {
+    flex: 1;
+    padding-right: 15px;
+}
+
+.right {
+    background-color: #6D747D;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    background-color: #3882F6;
+    margin-top: 8px;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 10px 35px;
 }
