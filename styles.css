@@ -52,7 +52,6 @@ a {
 
 .signup {
     display: flex;
-    /* justify-content: space-between; */
     background-color: #1F2937;
     /* TODO
     padding: 50px 250px;
@@ -120,4 +119,26 @@ a {
     width: 150px;
     text-align: center;
     padding-top: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.quote-words {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-attribution {
+    font-weight: 900;
+    font-size: 24px;
+    text-align: right;
+    padding-right: 50px;
 }
