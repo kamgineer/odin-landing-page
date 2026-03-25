@@ -50,7 +50,7 @@ a {
 .signup {
     display: flex;
     background-color: #1F2937;
-    padding: 50px 250px;
+    padding: 100px 250px;
 }
 
 .hero-main {
@@ -120,8 +120,8 @@ a {
     background-color: #E5E7EB;
     padding-top: 100px;
     padding-bottom: 80px;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 325px;
+    padding-right: 325px;
 }
 
 .quote-words {
